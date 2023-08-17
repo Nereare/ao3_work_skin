@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=UnifrakturMaguntia&display=swap");
+
+$background:  #f6f5f3;
+$back_accent: #dad7cd;
+$text:        #344e41;
+$link:        #588157;
+$header:      #3a5a40;
+
+#outer {
+  background-color: $background;
+  font-family: "Lora", "Noto Serif", serif;
+
+  .work.meta.group {
+    dt { color: $header; }
+  }
+  .wrapper { background-color: $back_accent; }
+}
+
+#workskin {
+  * {
+    background-color: transparent;
+    font-family: "Lora", "Noto Serif", serif;
+    text-align: justify;
+  }
+
+  .preface.group {
+    h2, h3 { color: $header; }
+    h3 { border-color: $header; }
+  }
+
+  a { color: $link; }
+  .indent { padding: 0 5em 0 5em; }
+  .book {
+    margin: 0 auto;
+    text-indent: 3em;
+  }
+  .border { border: 1px solid $link; }
+
+  .flashback  { font-style: italic; }
+  .caps       { font-variant: small-caps; }
+  .spoiler {
+    background: $text;
+    color: $text;
+  }
+
+  .dropcap {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 3em;
+  }
+  .font-serif      { font-family: "Lora", "Noto Serif", serif; }
+  .font-sansserif  { font-family: "Montserrat", sans-serif; }
+  .font-monospace  { font-family: "Courier Prime", monospace; }
+  .font-big        { font-size: 120%; }
+  .font-small      { font-size: 80%; }
+
+  .align-right     { text-align: right; }
+  .align-center    { text-align: center; }
+  .align-justify   { text-align: justify; }
+
+  hr {
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to right, $background, #212121, $background);
+    &::after {
+      content: "§";
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(90deg);
+      transform-origin: 50% 50%;
+      padding: 1rem;
+      background-color: $background;
+    }
+
+    &.third {
+      width: 33%;
+      margin: auto;
+    }
+    &.full {
+      width: 100%;
+      margin: auto;
+    }
+  }
+  blockquote {
+    position: relative;
+    padding: 1rem 1.2rem;
+    width: 80%;
+    margin: 1rem auto 2rem;
+    border: none;
+    cite:before {
+      content: "\a- ";
+      white-space: pre;
+    }
+    &:before, &:after{
+      position: absolute;
+      color: $link;
+      font-size: 82px;
+    }
+    &:before{
+      content: "\201c";
+      top: -12px;
+      margin-right: -10px;
+      right: 100%;
+    }
+    &:after{
+      content: "\201d";
+      margin-left: -10px;
+      left: 100%;
+      top: auto;
+      bottom: -40px;
+    }
+  }
+
+  .font-red     { color: #f44336; }
+  .font-orange  { color: #ff9800; }
+  .font-yellow  { color: #ffeb3b; }
+  .font-green   { color: #4caf50; }
+  .font-blue    { color: #2196f3; }
+  .font-purple  { color: #9c27b0; }
+  .font-white   { color: #fafafa; }
+  .font-black   { color: #212121; }
+  .font-pink    { color: #e91e63; }
+
+  .font-teal            { color: #008282; }
+  .font-redbrown        { color: #a15000; }
+  .font-cherryred       { color: #e00707; }
+  .font-brickred        { color: #a10000; }
+  .font-dimorange       { color: #f2a400; }
+  .font-murkyyellow     { color: #a1a100; }
+  .font-jade            { color: #4ac925; }
+  .font-dimgreen        { color: #008141; }
+  .font-leafgreen       { color: #1f9400; }
+  .font-darkolive       { color: #416600; }
+  .font-dimblue         { color: #005682; }
+  .font-midblue         { color: #0715cd; }
+  .font-mediumskyblue   { color: #00d5f2; }
+  .font-darknavy        { color: #000056; }
+  .font-lightpurple     { color: #f141ef; }
+  .font-midviolet       { color: #b536da; }
+  .font-verydarkpurple  { color: #2b0057; }
+  .font-darkplum        { color: #6a006a; }
+  .font-darkmaroon      { color: #77003c; }
+  .font-reallydarkgray  { color: #626262; }
+}

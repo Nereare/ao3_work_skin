@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - `2023-08-17`
 ### Added
 - Code of Conduct from [Contributor Covenant](https://www.contributor-covenant.org/).
 - [Hippocratic License](LICENSE.md).
@@ -19,3 +20,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ReadMe file.
 - Changelog file.
 - `SCSS` file.
+- Base style.
+
+[1.0.0]: https://github.com/Nereare/ao3_work_skin/releases/tag/1.1.0
