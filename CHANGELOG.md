@@ -1,4 +1,4 @@
-# [{{PKG_NAME}}](https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}) Changelog
+# [AO3 Work Skin](https://github.com/Nereare/ao3_work_skin) Changelog
 
 All notable changes to this project will be documented in this file.
 
@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Code of Conduct from [Contributor Covenant](https://www.contributor-covenant.org/).
-- [{{PKG_LICENSE_NAME}}](LICENSE.md).
+- [Hippocratic License](LICENSE.md).
 - Git metafiles (`.gitignore` and `.gitattributes`).
 - GitHub templates:
   - Issues;
@@ -18,4 +18,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Pull request.
 - ReadMe file.
 - Changelog file.
-- ...
+- `SCSS` file.

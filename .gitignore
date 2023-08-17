@@ -195,3 +195,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/osx,node,code,linux,grunt,macos,dropbox,windows
+
+# Sass rules
+.sass-cache/
+*.css
+*.css.map
