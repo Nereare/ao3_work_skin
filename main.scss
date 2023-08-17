@@ -24,7 +24,10 @@ $header:      #3a5a40;
   }
 
   .preface.group {
-    h2, h3 { color: $header; }
+    h2, h3 {
+      text-align: center;
+      color: $header;
+    }
     h3 { border-color: $header; }
   }
 
@@ -81,7 +84,7 @@ $header:      #3a5a40;
       margin: auto;
     }
   }
-  blockquote {
+  #chapters blockquote {
     position: relative;
     padding: 1rem 1.2rem;
     width: 80%;
@@ -106,6 +109,7 @@ $header:      #3a5a40;
       content: "\201d";
       margin-left: -10px;
       left: 100%;
+
       top: auto;
       bottom: -40px;
     }

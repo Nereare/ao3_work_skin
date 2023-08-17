@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- Main headers (under `.preface.group`) to centered.
+- Moved `blockquote` to under `#chapters`.
 
 ## [1.1.0] - `2023-08-17`
 ### Added
@@ -22,4 +25,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `SCSS` file.
 - Base style.
 
+[Unreleased]: https://github.com/Nereare/ao3_work_skin/compare/1.1.0...HEAD
 [1.0.0]: https://github.com/Nereare/ao3_work_skin/releases/tag/1.1.0
